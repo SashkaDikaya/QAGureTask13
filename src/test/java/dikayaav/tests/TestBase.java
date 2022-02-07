@@ -23,6 +23,9 @@ public class TestBase {
 
         String url = "https://" + login + ":" + pass + "@" + remoteUrl;
         Configuration.remote = url;
+        Configuration.browser = browser;
+        Configuration.browserVersion = version;
+        Configuration.browserSize = size;
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
