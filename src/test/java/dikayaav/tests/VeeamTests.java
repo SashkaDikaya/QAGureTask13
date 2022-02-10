@@ -58,7 +58,7 @@ public class VeeamTests extends TestBase {
             });
     }
 
-    @Disabled
+
     @Test
     @DisplayName("Смена языка с русского на английский")
     void changeLanguageTest()  {
