@@ -2,6 +2,7 @@ package dikayaav.tests;
 
 import com.codeborne.pdftest.PDF;
 import com.codeborne.selenide.Selenide;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -57,6 +58,7 @@ public class VeeamTests extends TestBase {
             });
     }
 
+    @Disabled
     @Test
     @DisplayName("Смена языка с русского на английский")
     void changeLanguageTest()  {
