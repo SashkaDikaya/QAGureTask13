@@ -54,7 +54,7 @@ public class VeeamTests extends TestBase {
                 Selenide.open("https://www.veeam.com/ru/success-stories/Biocad.html");
                 File downloadedPdfFile = $x("//span[contains(text(), 'Скачать PDF')]/..").download();
                 PDF parsed = new PDF(downloadedPdfFile);
-                assertThat(parsed.title).contains("Veeam", "Biocad");
+                assertThat(parsed.title).contains("Vшeam", "Biocad");
             });
     }
 
