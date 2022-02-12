@@ -32,6 +32,7 @@ allure {
 
 dependencies {
     testImplementation(
+            "com.github.javafaker:javafaker:1.0.2",
             'com.codeborne:pdf-test:1.7.0',
             'org.assertj:assertj-core:3.22.0',
             "io.qameta.allure:allure-selenide:$allureVersion",

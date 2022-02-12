@@ -12,11 +12,25 @@ import java.io.File;
 
 import static com.codeborne.pdftest.assertj.Assertions.assertThat;
 import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.$x;
 import static io.qameta.allure.Allure.step;
 
 
 public class VeeamTests extends TestBase {
+
+    @Test
+    @DisplayName("Поиск вакансии QA Automation")
+    void findVacancyTest()  {
+        step("Поиск вакансии QA Automation", () -> {
+            Selenide.open("https://careers.veeam.ru/");
+            $x("//input[@placeholder='Ключевое слово']").setValue("QA automation").pressEnter();
+        });
+
+        step("Проверка что есть вакансия содержащая фразу 'с возможностью переезда в Прагу' ", () -> {
+            $x("//*").shouldHave(text("с возможностью переезда в Прагу"));
+        });
+    }
 
     @ValueSource(strings = {"Biocad", "Exchange"})
     @ParameterizedTest(name = "Открытие статьи о : {0}")
@@ -58,7 +72,6 @@ public class VeeamTests extends TestBase {
             });
     }
 
-
     @Test
     @DisplayName("Смена языка с русского на английский")
     void changeLanguageTest()  {
@@ -67,6 +80,31 @@ public class VeeamTests extends TestBase {
             $x("//div[@class='language-selector']").click();
             $x("//a[@data-lang='en']").click();
             $x("//a[@class='additional-info__link contact-sales-link']").shouldHave(text("Contact Sales"));
+        });
+    }
+
+    public static String
+            firstName = faker.name().firstName(),
+            lastName = faker.name().lastName(),
+            email = faker.internet().emailAddress(),
+            phone = faker.phoneNumber().phoneNumber(),
+            company = faker.ancient().god(),
+            details = faker.elderScrolls().quote();
+
+    @Test
+    @DisplayName("Заполнение Запроса в отдел продаж")
+    void fillFormTest()  {
+        step("Заполнение Запроса в отдел продаж", () -> {
+            Selenide.open("https://www.veeam.com/ru/salesinc.html?ad=in-text-link");
+            $x("//input[contains(@id, 'first-name')]").setValue(firstName);
+            $x("//input[contains(@id, 'last-name')]").setValue(lastName);
+            $x("//input[contains(@id, 'email')]").setValue(email);
+            $x("//input[contains(@id, 'phone')]").setValue(phone);
+            $x("//input[contains(@id, 'company')]").setValue(company);
+            $x("//textarea[contains(@id, 'details')]").setValue(details);
+            $x("//div[@class='form-group js-products ']").click();
+            $x("//div[@class='ss-content ss-open']").$(withText("Veeam ONE")).click();
+
         });
     }
 

@@ -1,6 +1,7 @@
 package dikayaav.tests;
 
 import com.codeborne.selenide.Configuration;
+import com.github.javafaker.Faker;
 import dikayaav.helper.Attach;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
@@ -9,6 +10,8 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 
 public class TestBase {
+
+    static Faker faker = new Faker();
 
     @BeforeAll
     static void setUp() {
