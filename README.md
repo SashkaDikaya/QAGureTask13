@@ -46,8 +46,7 @@
 - browser (браузер, по умолчанию chrome)
 - browserVersion (версия браузера, по умолчанию 91.0)
 - browserSize (размер окна браузера, по умолчанию 1920x1080)
-- browserMobileView (название мобильного устройства, для примера iPhone X)
-- remoteDriverUrl (логин, пароль и адрес удаленного сервера selenoid или grid)
+- remoteDriverUrl (логин, пароль и адрес удаленного сервера selenoid)
 - videoStorage (адрес, по которому можно получить видео)
 - threads (количество потоков)
 
