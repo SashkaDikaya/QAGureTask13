@@ -70,55 +70,34 @@ test
 -Dthreads=${THREADS}
 ```
 
-## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/berezkindv_performance_lab_complete_project/22/allure/">Allure report</a>
+## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/10_DikayaAV_unit13/allure/">Allure report</a>
 
 ### Основное окно
 
 <p align="center">
-<img title="Allure Overview Dashboard" src="images/allure_main.png">
+<img title="Allure Overview Dashboard" src="images/screens/Screenshot_523.png">
 </p>
 
 ### Тесты
 
 <p align="center">
-<img title="Allure Tests" src="images/allure_tests.png">
+<img title="Allure Tests" src="images/screens/Screenshot_524.png">
 </p>
 
 ### Гафики
 
 <p align="center">
-<img title="Allure Graphics" src="images/allure_graphics.png">
+<img title="Allure Graphics" src="images/screens/Screenshot_525.png">
 </p>
 
-## <img src="images/Allure_EE.svg" width="25" height="25"  alt="Allure"/></a>Интеграция с <a target="_blank" href="https://allure.autotests.cloud/launch/10223">Allure TestOps</a>
-
-### Дашборд
+## <img src="images/logo/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
 
 <p align="center">
-<img title="Allure TestOps Dashboard" src="images/testOps_main.png">
-</p>
-
-### Тест-кейсы
-
-<p align="center">
-<img title="Allure TestOps Tests" src="images/testOps_tests.png">
-</p>
-
-## <img src="images/Jira.svg" width="25" height="25"  alt="Allure"/></a>Интеграция с трекером задач <a target="_blank" href="https://jira.autotests.cloud/browse/AUTO-628">Jira</a>
-
-<p align="center">
-<img title="Jira" src="images/jira_task.png">
-</p>
-
-## <img src="images/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
-
-<p align="center">
-<img title="Allure Overview Dashboard" src="images/allure_telegram.png">
+<img title="Allure Overview Dashboard" src="images/screens/Screenshot_528.png">
 </p>
 
 
-
-### <img src="images/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Примеры видео о прохождении тестов
+### <img src="images/logo/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Примеры видео о прохождении тестов
 
 <p align="center">
 <img title="Selenoid Video" src="images/video1.gif" width="250" height="153"  alt="video"> <img title="Selenoid Video" src="images/video2.gif" width="250" height="153"  alt="video"> <img title="Selenoid Video" src="images/video3.gif" width="250" height="153"  alt="video">
