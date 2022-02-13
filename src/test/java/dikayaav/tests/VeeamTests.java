@@ -27,8 +27,8 @@ public class VeeamTests extends TestBase {
             $x("//input[@placeholder='Ключевое слово']").setValue("QA automation").pressEnter();
         });
 
-        step("Проверка что есть вакансия содержащая фразу 'с возможностью переезда в Прагу' ", () -> {
-            $x("//*").shouldHave(text("с возможностью переезда в Прагу"));
+        step("Открытие вакансии содержащей фразу 'с возможностью переезда в Прагу' ", () -> {
+            $x("//*").shouldHave(text("с возможностью переезда в Прагу")).click();
         });
     }
 
@@ -69,6 +69,7 @@ public class VeeamTests extends TestBase {
                 File downloadedPdfFile = $x("//span[contains(text(), 'Скачать PDF')]/..").download();
                 PDF parsed = new PDF(downloadedPdfFile);
                 assertThat(parsed.title).contains("Veeam", "Biocad");
+
             });
     }
 

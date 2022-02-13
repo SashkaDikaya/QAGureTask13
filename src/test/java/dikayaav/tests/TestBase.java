@@ -8,6 +8,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import static com.codeborne.selenide.Selenide.closeWebDriver;
+import static com.codeborne.selenide.Selenide.sleep;
 
 public class TestBase {
 
@@ -38,6 +39,7 @@ public class TestBase {
         Attach.attachAsText("Browser: ", browser);
         Attach.attachAsText("Version: ", version);
         Attach.attachAsText("Remote Url: ", remoteUrl);
+
     }
 
     @AfterEach
@@ -46,6 +48,7 @@ public class TestBase {
         Attach.pageSource();
         Attach.browserConsoleLogs();
         Attach.addVideo();
+        sleep(5000);
         closeWebDriver();
     }
 
