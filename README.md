@@ -27,11 +27,11 @@
 
 ## :closed_book: Реализованные проверки
 
-✓ Поиск вакансии QA Automation
-✓ Открытие статьи о Biocad и Exchange (параметризованные тесты)
-✓ Поиск информации о компании Biocad в скачанном PDF файле
-✓ Смена языка с русского на английский
-✓ Заполнение Запроса в отдел продаж
+- ✓ Поиск вакансии QA Automation
+- ✓ Открытие статьи о Biocad и Exchange (параметризованные тесты)
+- ✓ Поиск информации о компании Biocad в скачанном PDF файле
+- ✓ Смена языка с русского на английский
+- ✓ Заполнение Запроса в отдел продаж
 
 ## <img src="images/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins <a target="_blank" href="https://jenkins.autotests.cloud/job/10_DikayaAV_unit13/"> job </a>
 <p align="center">
