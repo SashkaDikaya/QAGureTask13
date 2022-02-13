@@ -38,9 +38,7 @@
 <a href="https://jenkins.autotests.cloud/job/10_DikayaAV_unit13/"><img src="images/screens/Screenshot_522.png" alt="Jenkins"/></a>
 </p>
 
-## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/10_DikayaAV_unit13/allure/">Allure report</a>
-
-### Параметры сборки в Jenkins:
+### :maple_leaf: Параметры сборки в Jenkins:
 
 - browser (браузер, по умолчанию chrome)
 - version (версия браузера, по умолчанию 91.0)
