@@ -1,7 +1,7 @@
 # Проект по автоматизации тестирования для Veeam
 <a target="_blank" href="https://www.veeam.com/ru/">Веб сайт Veeam</a>
 
-## :pushpin: Содержание:
+## :drop_of_blood: Содержание:
 
 - [Технологии и инструменты](#earth_africa-технологии-и-инструменты)
 - [Реализованные проверки](#earth_africa-Реализованные-проверки)
@@ -11,7 +11,7 @@
 - [Отчет в Telegram](#earth_africa-Уведомление-в-Telegram-при-помощи-бота)
 - [Видео примеры прохождения тестов](#earth_africa-Примеры-видео-о-прохождении-тестов)
 
-## :rocket: Технологии и инструменты
+## :bird: Технологии и инструменты
 
 <p align="center">
 <a href="https://www.jetbrains.com/idea/"><img src="images/logo/Idea.svg" width="50" height="50"  alt="IDEA"/></a>
@@ -25,29 +25,27 @@
 <a href="https://www.jenkins.io/"><img src="images/logo/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>
 </p>
 
-## :scroll: Реализованные проверки
+## :closed_book: Реализованные проверки
 
-- ✓ Поиск вакансии QA Automation.
-- ✓ Открытие статьи о Biocad и Exchange (параметризованные тесты).
-- ✓ Поиск информации о компании Biocad в скачанном PDF файле.
-- ✓ Смена языка с русского на английский.
-- ✓ Заполнение Запроса в отдел продаж.
+- ✓ Поиск вакансии QA Automation
+- ✓ Открытие статьи о Biocad и Exchange (параметризованные тесты)
+- ✓ Поиск информации о компании Biocad в скачанном PDF файле
+- ✓ Смена языка с русского на английский
+- ✓ Заполнение Запроса в отдел продаж
 
 ## <img src="images/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins <a target="_blank" href="https://jenkins.autotests.cloud/job/10_DikayaAV_unit13/"> job </a>
 <p align="center">
 <a href="https://jenkins.autotests.cloud/job/10_DikayaAV_unit13/"><img src="images/screens/Screenshot_522.png" alt="Jenkins"/></a>
 </p>
 
-## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/10_DikayaAV_unit13/allure/">Allure report</a>
-
-### Параметры сборки в Jenkins:
+### :maple_leaf: Параметры сборки в Jenkins:
 
 - browser (браузер, по умолчанию chrome)
 - version (версия браузера, по умолчанию 91.0)
 - size (размер окна браузера, по умолчанию 1920x1080)
 - remoteUrl (логин, пароль и адрес удаленного сервера selenoid)
 
-## :computer: Запуск тестов из терминала
+## :japanese_ogre: Запуск тестов из терминала
 
 Локальный запуск:
 ```
@@ -66,19 +64,19 @@ test
 
 ## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/10_DikayaAV_unit13/allure/">Allure report</a>
 
-### Основное окно
+### :lady_beetle: Основное окно
 
 <p align="center">
 <img title="Allure Overview Dashboard" src="images/screens/Screenshot_523.png">
 </p>
 
-### Тесты
+### :cherries: Тесты
 
 <p align="center">
 <img title="Allure Tests" src="images/screens/Screenshot_524.png">
 </p>
 
-### Гафики
+### :cut_of_meat: Графики
 
 <p align="center">
 <img title="Allure Graphics" src="images/screens/Screenshot_525.png">
@@ -87,11 +85,11 @@ test
 ## <img src="images/logo/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
 
 <p align="center">
-<img title="Allure Overview Dashboard" src="images/screens/Screenshot_528.png">
+<img title="Allure Overview Dashboard" src="images/screens/Screenshot_528.png" >
 </p>
 
 
-### <img src="images/logo/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Примеры видео о прохождении тестов
+## <img src="images/logo/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Видео прохождения теста
 
 <p align="center">
 <img title="Selenoid Video" src="images/gif/видео.gif" width="250" height="153"  alt="video"> 
