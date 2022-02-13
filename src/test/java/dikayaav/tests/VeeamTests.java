@@ -104,7 +104,7 @@ public class VeeamTests extends TestBase {
             $x("//input[contains(@id, 'company')]").setValue(company);
             $x("//textarea[contains(@id, 'details')]").setValue(details);
             $x("//div[@class='form-group js-products ']").click();
-            $x("//div[@class='ss-content ss-open']").$(withText("Veeam Backup")).click();
+            $x("//div[@class='ss-content ss-open']").$(withText("Veeam")).click();
 
         });
     }
