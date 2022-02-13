@@ -64,19 +64,19 @@ test
 
 ## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/10_DikayaAV_unit13/allure/">Allure report</a>
 
-### Основное окно
+### :lady_beetle: Основное окно
 
 <p align="center">
 <img title="Allure Overview Dashboard" src="images/screens/Screenshot_523.png">
 </p>
 
-### Тесты
+### :cherries: Тесты
 
 <p align="center">
 <img title="Allure Tests" src="images/screens/Screenshot_524.png">
 </p>
 
-### Гафики
+### :cut_of_meat: Гафики
 
 <p align="center">
 <img title="Allure Graphics" src="images/screens/Screenshot_525.png">
