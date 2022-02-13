@@ -25,7 +25,8 @@
 <a href="https://www.jenkins.io/"><img src="images/logo/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>
 </p>
 
-## :closed_book: Реализованные проверки
+## :boom:
+:collision: Реализованные проверки
 
 - ✓ Поиск вакансии QA Automation
 - ✓ Открытие статьи о Biocad и Exchange (параметризованные тесты)
