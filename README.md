@@ -1,7 +1,7 @@
 # Проект по автоматизации тестирования для Veeam
 <a target="_blank" href="https://www.veeam.com/ru/">Веб сайт Veeam</a>
 
-## :pushpin: Содержание:
+## :drop_of_blood: Содержание:
 
 - [Технологии и инструменты](#earth_africa-технологии-и-инструменты)
 - [Реализованные проверки](#earth_africa-Реализованные-проверки)
@@ -11,7 +11,7 @@
 - [Отчет в Telegram](#earth_africa-Уведомление-в-Telegram-при-помощи-бота)
 - [Видео примеры прохождения тестов](#earth_africa-Примеры-видео-о-прохождении-тестов)
 
-## :rocket: Технологии и инструменты
+## :bow_and_arrow: Технологии и инструменты
 
 <p align="center">
 <a href="https://www.jetbrains.com/idea/"><img src="images/logo/Idea.svg" width="50" height="50"  alt="IDEA"/></a>
@@ -25,7 +25,7 @@
 <a href="https://www.jenkins.io/"><img src="images/logo/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>
 </p>
 
-## :scroll: Реализованные проверки
+## :closed_book: Реализованные проверки
 
 - ✓ Поиск вакансии QA Automation.
 - ✓ Открытие статьи о Biocad и Exchange (параметризованные тесты).
@@ -47,7 +47,7 @@
 - size (размер окна браузера, по умолчанию 1920x1080)
 - remoteUrl (логин, пароль и адрес удаленного сервера selenoid)
 
-## :computer: Запуск тестов из терминала
+## :cup_with_straw: Запуск тестов из терминала
 
 Локальный запуск:
 ```
