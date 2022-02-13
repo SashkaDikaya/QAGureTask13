@@ -76,7 +76,7 @@ test
 <img title="Allure Tests" src="images/screens/Screenshot_524.png">
 </p>
 
-### :cut_of_meat: Гафики
+### :cut_of_meat: Графики
 
 <p align="center">
 <img title="Allure Graphics" src="images/screens/Screenshot_525.png">
